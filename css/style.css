@@ -1,0 +1,93 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header {
+    margin-top: -12px;
+}
+
+header > ul {
+    height: 80px;
+    width: 100vw;
+    position: fixed;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+li {
+    margin: 1px;
+    margin-top: 15px;
+    padding: 10px;
+    display: inline-block;
+    border: dashed 1px gray;
+    transition: 0.8s;
+}
+
+li.bt-pedido {
+    background-color: darkred;
+    padding: 15px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 80px;
+    height: 800px;
+    background: url("../imagens/fd-cabecalho.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main > p {
+    margin-top: 400px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+section {
+    min-height: 250px;
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    color: white;
+}
+
+article {
+    height: 200px;
+    float: left;
+    margin: auto;
+    color: gold;
+    width: 300px;
+    margin-top: 50px;
+}
+
+aside {
+    width: 500px;
+    color: white;
+    display: block;
+    float: right;
+    background: url("../imagens/fd-porcao.jpg") no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    color: aliceblue;
+    background-color: rgb(12, 2, 2);
+}

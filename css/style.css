@@ -68,19 +68,19 @@ article {
     float: left;
     margin: auto;
     color: gold;
-    width: 300px;
+    max-width: 300px;
     margin-top: 50px;
 }
 
 aside {
     width: 500px;
+    height: 200px;
     color: white;
     display: block;
     float: right;
     background: url("../imagens/fd-porcao.jpg") no-repeat;
     background-size: contain;
     background-position: 50%;
-    height: 200px;
 }
 
 footer {
@@ -90,4 +90,10 @@ footer {
     font-size: 10px;
     color: aliceblue;
     background-color: rgb(12, 2, 2);
+}
+
+@media screen and (max-width: 900px) {
+    .conteudo {
+        display: none;
+    }
 }
